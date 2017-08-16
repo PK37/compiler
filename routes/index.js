@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 router.post('/compile', function(req, res, next) {
 
 hackerRank.submit({
-	apiKey: 'PLACE YOUR API KEY HERE',
+	apiKey: ' hackerrank|2460513-1781|3ab47b40dd31878e8c298dd9f53e30b8ed86c4a3',
 	source: req.body.source,
 	language: parseInt(req.body.language),
 	testcases: JSON.parse(req.body.input),
