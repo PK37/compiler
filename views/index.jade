@@ -1,9 +1,9 @@
 doctype html(lang='en')
 head
 		title Question Editor
-		link(href='../public/stylesheets/bootstrap.min.css', rel='stylesheet')
+		link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
 		meta(name="viewport" content="width=device-width, initial-scale=1.0")
-		link(href='../public/stylesheets/bootstrap.min.css/stylesheets/style.css' rel='stylesheet')
+		link(href='/stylesheets/bootstrap.min.css/stylesheets/style.css' rel='stylesheet')
 		link(rel='stylesheet', href='/fonts/font-awesome/css/font-awesome.min.css')
 		style(type='text/css', media='screen').
 			#editor {
@@ -44,6 +44,6 @@ head
 			editor.getSession().setMode("ace/mode/#{langCode}");
 		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
 		|     
-		script(src='../public/stylesheets/bootstrap.min.css/javascripts/bootstrap.min.js')
-		script(src="../public/stylesheets/bootstrap.min.css/javascripts/jquery.js")
-		script(src="../public/stylesheets/bootstrap.min.css/javascripts/compile.js")
+		script(src='/stylesheets/bootstrap.min.css/javascripts/bootstrap.min.js')
+		script(src="/stylesheets/bootstrap.min.css/javascripts/jquery.js")
+		script(src="/stylesheets/bootstrap.min.css/javascripts/compile.js")
